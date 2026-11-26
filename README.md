@@ -54,13 +54,7 @@ python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 pip install -r requirements.txt # or uv sync
-```
-
-Execute any architectural pattern module:
-
-```bash
 python 01_agent/main.py
-python 02_handoffs/main.py
 ```
 
 ## 6. Author and License
